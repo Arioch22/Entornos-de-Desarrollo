@@ -6,7 +6,7 @@ package huevoSorpresa;
 
 /**
  *
- * @author Profesor
+ * @author Manuel Monterroso Flores
  */
 public class Main {
 
@@ -25,6 +25,11 @@ public class Main {
         
     }
 
+    /**
+     * Método para sacar huevos sorpresas.
+     * @param h_sorpresa nombre del objeto creado
+     * 
+     */
     public static void opera_UnidadesMonterrosoFloresManuel2122(HuevoSorpresaMonterrosoFloresManuel2122 h_sorpresa) {
         /*Vamos a intentar sacar 2 huevos sorpresa, como no hay dinero suficiente saltará
         una excepción y no se modificará el nº de unidades de la tienda*/
@@ -38,6 +43,11 @@ public class Main {
         }
     }
 
+    /**
+     * Método para aumentar el precio de los huevos sorpresa.
+     * @param h_sorpresa nombre del objeto creado
+     * 
+     */
     public static void opera_PrecioMonterrosoFloresManuel2122(HuevoSorpresaMonterrosoFloresManuel2122 h_sorpresa) {
         /*Vamos a aumentar el precio 3€, como no supera el precio máximo establecido la operación
         tendrá éxito y el nuevo precio será de 8€*/
